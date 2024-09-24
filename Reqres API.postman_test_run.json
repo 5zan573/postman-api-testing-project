@@ -1,0 +1,249 @@
+{
+	"id": "b7776177-2796-4e0c-8a57-f3c157a136bb",
+	"name": "Reqres API",
+	"timestamp": "2024-09-24T16:01:23.692Z",
+	"collection_id": "34738427-1e448824-f081-4bd8-a21c-f773a8b5ad16",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 17,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-09-24T16:01:21.520Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "ac04df1f-9871-4a7e-bebe-147ee69666ea",
+			"name": "Login",
+			"url": "https://reqres.in/api/login",
+			"time": 452,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"status code is 100": true,
+				"response time is less than 500ms": true,
+				"Token is present": true
+			},
+			"testPassFailCounts": {
+				"status code is 100": {
+					"pass": 1,
+					"fail": 0
+				},
+				"response time is less than 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Token is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				452
+			],
+			"allTests": [
+				{
+					"status code is 100": true,
+					"response time is less than 500ms": true,
+					"Token is present": true
+				}
+			]
+		},
+		{
+			"id": "225e859e-fbec-403e-8e5b-3272edbe2985",
+			"name": "Get User",
+			"url": "https://reqres.in/api/users?page=2",
+			"time": 39,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response status code is 200": true,
+				"Response time is within an acceptable range": true,
+				"Response contains user data": true,
+				"UserId is present": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is within an acceptable range": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response contains user data": {
+					"pass": 1,
+					"fail": 0
+				},
+				"UserId is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				39
+			],
+			"allTests": [
+				{
+					"Response status code is 200": true,
+					"Response time is within an acceptable range": true,
+					"Response contains user data": true,
+					"UserId is present": true
+				}
+			]
+		},
+		{
+			"id": "b9fbeb95-70ba-4de7-a498-504bde02230a",
+			"name": "Get User By Id",
+			"url": "https://reqres.in/api/users/7",
+			"time": 344,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 500ms": true,
+				"Response contains correct userId": true,
+				"First name is present": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response contains correct userId": {
+					"pass": 1,
+					"fail": 0
+				},
+				"First name is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				344
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 500ms": true,
+					"Response contains correct userId": true,
+					"First name is present": true
+				}
+			]
+		},
+		{
+			"id": "681540c8-8b93-46de-86e8-19b172da520f",
+			"name": "Create User",
+			"url": "https://reqres.in/api/users/",
+			"time": 369,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Response time is less than 500ms": true,
+				"User is created with ID": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"User is created with ID": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				369
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Response time is less than 500ms": true,
+					"User is created with ID": true
+				}
+			]
+		},
+		{
+			"id": "6c931502-a25f-43f2-9374-b7d3afc1d31e",
+			"name": "Update User",
+			"url": "https://reqres.in/api/users/118",
+			"time": 337,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 500ms": true,
+				"user is updated": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"user is updated": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				337
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 500ms": true,
+					"user is updated": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1541,
+	"collection": {
+		"requests": [
+			{
+				"id": "ac04df1f-9871-4a7e-bebe-147ee69666ea",
+				"method": "POST"
+			},
+			{
+				"id": "225e859e-fbec-403e-8e5b-3272edbe2985",
+				"method": "GET"
+			},
+			{
+				"id": "b9fbeb95-70ba-4de7-a498-504bde02230a",
+				"method": "GET"
+			},
+			{
+				"id": "681540c8-8b93-46de-86e8-19b172da520f",
+				"method": "POST"
+			},
+			{
+				"id": "6c931502-a25f-43f2-9374-b7d3afc1d31e",
+				"method": "PUT"
+			}
+		]
+	}
+}
